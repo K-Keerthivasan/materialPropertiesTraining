@@ -20,7 +20,7 @@ def trainModel(input_file_name, output_file_name):
 
     # Ensure the output directory exists
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
+    
     # Load the data
     try:
         df = pd.read_csv(input_file)
